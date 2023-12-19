@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ICON TAB -->
+  <link rel="shortcut icon" href="./assets/alivia.ico" type="image/x-icon">
+  <!-- STYLES CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- TAILWIND CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FONT AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/56fc836282.js" crossorigin="anonymous"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Alivia - Inicio</title>
+</head>
+
+<body class="h-screen">
+  <!-- INTERFAZ DE LOGIN -->
+  <div class="h-full w-full flex flex-col">
+    <!--CONTENIDO -->
+    <div class="h-full flex items-center justify-center">
+      <!-- FORMULARIO DE INICIO DE SESIÓN -->
+      <nav class="p-5 w-[25%] h-full flex flex-col items-center gap-3 bg-gradient-to-tr from-green-900 to-green-700">
+        <!-- ENCABEZADO -->
+        <div class="w-full py-2 bg-white flex items-center justify-center rounded-2xl">
+          <img class="w-[75%]" src="./assets/img/elretablologo.png" alt="elretablologo">
+        </div>
+        <hr class="w-full border border-white" />
+        <!-- OPCIONES -->
+        <div class="grow w-full flex items-center justify-center">
+          <div class="w-full flex flex-col gap-3">
+            <a href="inicio.html"
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-yellow-400 to-yellow-100 text-black font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-house"></i>
+              <p>Inicio</p>
+            </a>
+            <a href="usuarios.html"
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-sky-700 to-sky-500 text-white font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-users"></i>
+              <p>Usuarios</p>
+            </a>
+            <a href="inventarios.html"
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-sky-700 to-sky-500 text-white font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-cart-flatbed"></i>
+              <p>Inventario</p>
+            </a>
+            <button
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-sky-700 to-sky-500 text-white font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-shuffle"></i>
+              <p>Transacciones</p>
+            </button>
+            <button
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-sky-700 to-sky-500 text-white font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-dolly"></i>
+              <p>Dispensación</p>
+            </button>
+            <button
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-sky-700 to-sky-500 text-white font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-people-carry-box"></i>
+              <p>Ventas</p>
+            </button>
+          </div>
+        </div>
+        <!-- FINAL -->
+        <hr class="w-full border border-white" />
+        <div class="w-full flex flex-col gap-3">
+          <div class="flex gap-3">
+            <button
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-lime-400 to-lime-100 text-black font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-user"></i>
+              <p>Perfil</p>
+            </button>
+            <button
+              class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-lime-400 to-lime-100 text-black font-bold border border-white rounded-lg">
+              <i class="fa-solid fa-circle-question"></i>
+              <p>Ayuda</p>
+            </button>
+          </div>
+          <a href="index.html"
+            class="w-full py-2 flex items-center justify-center gap-2 bg-gradient-to-tr from-lime-400 to-lime-100 text-black font-bold border border-white rounded-lg">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <p>Cerrar sesión</p>
+          </a>
+        </div>
+      </nav>
+      <!-- CONTENIDO DEL DASHBOARD -->
+      <div class="p-5 w-[75%] h-full flex flex-col gap-3 bg-white rounded-br-2xl">
+        <!-- ENCABEZADO DEL CONTENIDO -->
+        <div class="flex justify-between">
+          <div class="flex items-center gap-3 text-2xl font-bold">
+            <i class="fa-solid fa-house"></i>
+            <p>Inicio</p>
+          </div>
+          <div class="flex items-center gap-3 text-2xl font-bold">
+            <img class="object-cover w-8 h-8 rounded-[50%]"
+              src="https://pymstatic.com/5844/conversions/personas-emocionales-small-16_9.jpg" alt="elretablologo">
+            <div>
+              <h2 class="text-sm">María Rodríguez Peña</h2>
+              <p class="text-xs font-normal">Administrador</p>
+            </div>
+          </div>
+        </div>
+        <hr class="border border-black" />
+        <div class="p-5 flex flex-col gap-3 text-normal border border-black rounded-2xl">
+          <div>
+            <img class="mr-4 float-left w-[180px] rounded-2xl"
+              src="https://img.freepik.com/fotos-premium/verificacion-inventario-farmacia-mujer-india-lista-verificacion-medicamentos-pildoras-trabajo-inventario-farmaceutico-productos-farmaceuticos-tienda-minorista-o-clinica-empleado-salud-bienestar_590464-177577.jpg"
+              alt="inventario">
+            <p class="leading-relaxed">
+              Bienvenido nuevamente!, "<b>Alivia</b>" es un sistema de información para
+              <b>gestionar los inventarios farmacéuticos</b> desde su entrada a la empresa hasta que estas se hayan
+              vendido. Aquí, puedes encontrar todos los datos de los productos o medicamentos, proveedores,
+              transacciones, recetas y registro de ventas que hayan hecho en la empresa.
+            </p>
+          </div>
+          <p>Algunas de las <b>acciones</b> que puedes hacer son:</p>
+          <ul class="ml-10 list-decimal">
+            <li>Gestionar a los usuarios de la aplicación.</li>
+            <li>Gestionar las diferentes acciones de un inventario de productos.</li>
+            <li>Gestionar transacciones de los productos proveidos a la farmacia.</li>
+            <li>Gestionar la dispensación del local a partir de los productos obtenidos.</li>
+            <li>Gestionar las ventas del local a partir del inventario proveído.</li>
+            <li>Configurar tu perfil de usuario, acceder a ayuda y otras opciones más.</li>
+          </ul>
+          <p class="indent-5">
+            Esperamos que el sistema de su agrado y se le sea eficiente en la organización de los medicamentos de su
+            empresa para la atención a sus clientes.
+          </p>
+          <p class="text-right">Atentamente, <i>Alivia Team</i>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
